@@ -15,7 +15,7 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 200px;
+	padding: 10px 50px;
     text-align: center;
     
 	
@@ -42,6 +42,10 @@ header{
     font-weight: 500;
     padding-left: 30px;
     margin-right: 2vw;
+    justify-content: space-between;
+    padding: 50px;
+    
+    
 }
 
 .navigation a:hover , .logo:hover{
@@ -62,6 +66,7 @@ section{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    
 
 }
 
@@ -263,7 +268,7 @@ section{
         display: block;
         width: 25px;
         height: 3px;
-        background: #3a6cf4;
+        background: #ffffff;
         margin: 4px 0;
         transition: all 0.3s;
     }
